@@ -1,0 +1,18 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(39, 39, 39) ;
+}
+.logo-news {
+  width: 135px;
+}
+
+.title-Header {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  text-wrap: nowrap;
+  padding: 15px;
+}

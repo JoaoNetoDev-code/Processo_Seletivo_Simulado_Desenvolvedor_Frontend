@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './components/Header'
+import BreakNews from './components/BreakNews'
+import MoreNews from './components/MoreNews'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>initial commit</h1>
+      <Header />
+      <BreakNews />
+      <MoreNews />
     </>
   )
 }
