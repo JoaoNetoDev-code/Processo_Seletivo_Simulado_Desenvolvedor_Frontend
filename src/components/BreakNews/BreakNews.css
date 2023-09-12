@@ -5,21 +5,6 @@
   padding: 5px;
   padding-bottom: 10px;
 }
-.btn-more {
-  margin-top: 10px;
-  background-color: rgb(5, 212, 01);
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: background-color 0.3s ease;
-}
-
-.btn-more:hover {
-  background-color: rgb(70, 186, 93);
-}
 
 .image-post {
   padding: 10px;
@@ -62,7 +47,7 @@
 
 .news-content {
   padding: 20px;
-  width: 750px;
+  width: 600px;
 }
 
 .more-details {

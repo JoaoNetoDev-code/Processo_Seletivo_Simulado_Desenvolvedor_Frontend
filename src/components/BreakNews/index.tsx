@@ -3,6 +3,7 @@ import { useState } from 'react'
 import breakNewsPost from '/public/breakNewsPost.png';
 import hartsIsFalse from '/public/hartsIsFalse.png';
 import hartsIsTrue from '/public/hartsIsTrue.png';
+import Button from '../Button';
 
 function BreakNews() {
   const [isCheckd, setIsCheked] = useState(true);
@@ -34,11 +35,7 @@ function BreakNews() {
           <p>A população quilombola do país é de 1.327.802 pessoas, ou 0,65% do total de habitantes. Os dados são do Censo 2022, que investigou pela primeira vez esse grupo, integrante dos povos e comunidades tradicionais reconhecidos pela Constituição de 1988.</p>
         </div>
         <div className='more-details'>
-      <span>
-            <p><b>1 dia atrás</b></p>
-            
-          </span>
-      <button type="button" className='btn-more'>veja a notícia aqui</button>
+      <Button btnName='Leia a noticía aqui' date='a 2 dias' />
       </div>
       </span>
     </section>
