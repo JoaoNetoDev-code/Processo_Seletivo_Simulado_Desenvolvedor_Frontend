@@ -34,9 +34,7 @@ function BreakNews() {
           <h1>Brasil tem 1,3 milhão de quilombolas em 1.696 municípios</h1>
           <p>A população quilombola do país é de 1.327.802 pessoas, ou 0,65% do total de habitantes. Os dados são do Censo 2022, que investigou pela primeira vez esse grupo, integrante dos povos e comunidades tradicionais reconhecidos pela Constituição de 1988.</p>
         </div>
-        <div className='more-details'>
-      <Button btnName='Leia a noticía aqui' date='a 2 dias' />
-      </div>
+        <Button btnName='Leia a noticía aqui' date='a 2 dias' />
       </span>
     </section>
   );

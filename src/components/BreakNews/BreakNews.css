@@ -3,12 +3,14 @@
   display: flex;
   flex-direction: row;
   padding: 5px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
 .image-post {
   padding: 10px;
   width: 600px;
+  margin-left: 50px;
 }
 
 .news-select {
@@ -34,7 +36,7 @@
   flex-direction:row;
   justify-content: space-between;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .check-favorite input:checked {
@@ -46,12 +48,8 @@
 }
 
 .news-content {
-  padding: 20px;
-  width: 600px;
-}
-
-.more-details {
-  margin-top: 15px;
+  padding: 0px 20px;
+  width: auto;
 }
 
 @media (max-width: 843px) {
@@ -70,6 +68,7 @@
   .image-post {
     padding: 10px;
     width: 360px;
+    margin-left: auto;
   }
   .news-content {
     padding: 20px;
