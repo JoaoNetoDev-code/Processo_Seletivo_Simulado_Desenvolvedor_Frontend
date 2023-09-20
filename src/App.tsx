@@ -1,11 +1,10 @@
-import Header from './components/Header'
-import BreakNews from './components/BreakNews'
-import MoreNews from './components/MoreNews'
-import './App.css'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import BreakNews from './components/BreakNews';
+import MoreNews from './components/MoreNews';
+import './App.css';
+import Footer from './components/Footer';
 
 function App() {
-
   return (
     <>
       <Header />
@@ -13,7 +12,7 @@ function App() {
       <MoreNews />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

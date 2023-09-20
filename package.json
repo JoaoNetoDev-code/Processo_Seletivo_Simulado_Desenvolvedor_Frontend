@@ -1,5 +1,5 @@
 {
-  "name": "desafio_frontend",
+  "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@trybe/eslint-config-frontend": "^1.11.4",
-    "bootstrap": "^5.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
