@@ -1,0 +1,27 @@
+.display-loading {
+  background-color: rgb(241, 242, 243);
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.img-loading {
+  border-radius: 15px;
+  width: 150px;
+  animation: rotateAndScale 4s alternate infinite;
+  transform-origin: center center; 
+}
+
+@keyframes rotateAndScale {
+  0%, 100% {
+      transform: rotate(0deg) scale(1);
+  }
+  50% {
+      transform: rotate(180deg) scale(1.4);
+  }
+}
